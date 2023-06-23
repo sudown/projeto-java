@@ -1,20 +1,37 @@
 package com.lojinha;
 
 import java.sql.Date;
-import java.util.HashMap;
+
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
+import com.google.gson.annotations.Expose;
+
 import java.io.FileWriter;
 import java.io.IOException;
 
 public class Bebida {
-  String nome;
-  int id;
-  double preco;
-  int quantidade;
-  String tipo;
-  String marca;
-  String descricao;
-  Date dataValidade;
-  String json;
+  @Expose
+  private String nome;
+  @Expose
+  private int id;
+  @Expose
+  private double preco;
+  @Expose
+  private int quantidade;
+  @Expose
+  private String tipo;
+  @Expose
+  private String marca;
+  @Expose
+  private String descricao;
+  @Expose
+  private Date dataValidade;
+  private String json;
+
+  private void updateJson() {
+    Gson gson = new GsonBuilder().excludeFieldsWithoutExposeAnnotation().setPrettyPrinting().create();
+    this.json = gson.toJson(this);
+  }
 
   public Bebida(String nome, int id, double preco, int quantidade, String tipo, String marca, String descricao,
       String dataValidade) {
@@ -25,25 +42,85 @@ public class Bebida {
     this.tipo = tipo;
     this.marca = marca;
     this.descricao = descricao;
-    this.dataValidade = Date.valueOf("2023-12-12");
+    this.dataValidade = Date.valueOf(dataValidade);
 
-    HashMap<String, Object> JsonObj = new HashMap<>();
-    JsonObj.put("nome", this.nome);
-    JsonObj.put("id", this.id);
-    JsonObj.put("preco", this.preco);
-    JsonObj.put("quantidade", this.quantidade);
-    JsonObj.put("tipo", this.tipo);
-    JsonObj.put("marca", this.marca);
-    JsonObj.put("descricao", this.descricao);
-    JsonObj.put("dataValidade", this.dataValidade);
+    this.updateJson();
+  }
 
-    try (FileWriter file = new FileWriter("./src/main/java/com/lojinha/bebidas/" + this.id + ".json")) {
-      file.write(JsonObj.toString());
-      file.flush();
-    } catch (IOException e) {
-      e.printStackTrace();
-    }
+  public String getNome() {
+    return nome;
+  }
 
+  public void setNome(String nome) {
+    this.nome = nome;
+    this.updateJson();
+  }
+
+  public int getId() {
+    return id;
+  }
+
+  public double getPreco() {
+    return preco;
+  }
+
+  public void setPreco(double preco) {
+    this.preco = preco;
+    this.updateJson();
+
+  }
+
+  public int getQuantidade() {
+    return quantidade;
+  }
+
+  public void setQuantidade(int quantidade) {
+    this.quantidade = quantidade;
+    this.updateJson();
+
+  }
+
+  public String getTipo() {
+    return tipo;
+  }
+
+  public void setTipo(String tipo) {
+    this.tipo = tipo;
+    this.updateJson();
+
+  }
+
+  public String getMarca() {
+    return marca;
+  }
+
+  public void setMarca(String marca) {
+    this.marca = marca;
+    this.updateJson();
+
+  }
+
+  public String getDescricao() {
+    return descricao;
+  }
+
+  public void setDescricao(String descricao) {
+    this.descricao = descricao;
+    this.updateJson();
+
+  }
+
+  public Date getDataValidade() {
+    return dataValidade;
+  }
+
+  public void setDataValidade(Date dataValidade) {
+    this.dataValidade = dataValidade;
+    this.updateJson();
+  }
+
+  public String getJson() {
+    return json;
   }
 
   void cadastrarBebida() {

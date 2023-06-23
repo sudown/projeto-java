@@ -1,0 +1,18 @@
+[
+  {
+    "id": 0,
+    "preco": 0.0,
+    "quantidade": 0
+  },
+  {
+    "nome": "Coca Zero",
+    "id": 1,
+    "preco": 2.5,
+    "quantidade": 10,
+    "tipo": "Refrigerante",
+    "marca": "Coca-Cola",
+    "descricao": "Refrigerante de cola",
+    "dataValidade": "dez. 1, 2020",
+    "json": "{\n  \"nome\": \"Coca\",\n  \"id\": 1,\n  \"preco\": 2.5,\n  \"quantidade\": 10,\n  \"tipo\": \"Refrigerante\",\n  \"marca\": \"Coca-Cola\",\n  \"descricao\": \"Refrigerante de cola\",\n  \"dataValidade\": \"dez. 1, 2020\"\n}"
+  }
+]
