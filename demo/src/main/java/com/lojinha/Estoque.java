@@ -9,14 +9,14 @@ import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 
 public class Estoque {
-  private List<Bebida> bebidas;
-  private String jsonFilePath = "./demo/src/main/java/com/lojinha/estoque/estoque.json";
+  public List<Bebida> bebidas;
+  public String jsonFilePath = "./demo/src/main/java/com/lojinha/estoque/estoque.json";
 
   public Estoque() {
     bebidas = new ArrayList<>();
   }
 
-  public void gravarEstoqueEmArquivo() {
+  private void gravarEstoqueEmArquivo() {
     try (Writer writer = new FileWriter(jsonFilePath)) {
       Gson gson = new GsonBuilder().setPrettyPrinting().create();
       gson.toJson(bebidas, writer);
@@ -41,13 +41,43 @@ public class Estoque {
     gravarEstoqueEmArquivo();
   }
 
-  public void removerBebida(Bebida bebida) {
+  public void removerBebidaByBebida(Bebida bebida) {
     bebidas.remove(bebida);
+    gravarEstoqueEmArquivo();
+  }
+
+  public void removerBebidaById(int id) {
+    for (Bebida bebida : bebidas) {
+      if (bebida.getId() == id) {
+        bebidas.remove(bebida);
+        gravarEstoqueEmArquivo();
+      }
+    }
   }
 
   public void listarBebidas() {
     for (Bebida bebida : bebidas) {
       System.out.println(bebida.getJson());
     }
+  }
+
+  public void listarBebidasNaoAlcoolicas() {
+    for (Bebida bebida : bebidas) {
+      if (!bebida.getTipo().equals("Alcoolica")) {
+        System.out.println(bebida.getJson()); //pensar em melhorar isso
+      }
+    }
+  }
+
+  public void listarBebidasAlcoolicas() {
+    for (Bebida bebida : bebidas) {
+      if (bebida.getTipo().equals("Alcoolica")) {
+        System.out.println(bebida.getJson()); //pensar em melhorar isso
+      }
+    }
+  }
+
+  public void atualizarBebida(){
+    
   }
 }

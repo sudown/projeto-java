@@ -33,6 +33,8 @@ public class Bebida {
     this.json = gson.toJson(this);
   }
 
+  public Bebida(){}
+
   public Bebida(String nome, int id, double preco, int quantidade, String tipo, String marca, String descricao,
       String dataValidade) {
     this.nome = nome;
