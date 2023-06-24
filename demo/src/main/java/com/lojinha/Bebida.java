@@ -6,9 +6,6 @@ import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.google.gson.annotations.Expose;
 
-import java.io.FileWriter;
-import java.io.IOException;
-
 public class Bebida {
   @Expose
   private String nome;
@@ -28,12 +25,8 @@ public class Bebida {
   private Date dataValidade;
   private String json;
 
-  private void updateJson() {
-    Gson gson = new GsonBuilder().excludeFieldsWithoutExposeAnnotation().setPrettyPrinting().create();
-    this.json = gson.toJson(this);
+  public Bebida() {
   }
-
-  public Bebida(){}
 
   public Bebida(String nome, int id, double preco, int quantidade, String tipo, String marca, String descricao,
       String dataValidade) {
@@ -47,6 +40,11 @@ public class Bebida {
     this.dataValidade = Date.valueOf(dataValidade);
 
     this.updateJson();
+  }
+
+  private void updateJson() {
+    Gson gson = new GsonBuilder().excludeFieldsWithoutExposeAnnotation().setPrettyPrinting().create();
+    this.json = gson.toJson(this);
   }
 
   public String getNome() {

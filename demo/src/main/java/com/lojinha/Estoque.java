@@ -41,11 +41,6 @@ public class Estoque {
     gravarEstoqueEmArquivo();
   }
 
-  public void removerBebidaByBebida(Bebida bebida) {
-    bebidas.remove(bebida);
-    gravarEstoqueEmArquivo();
-  }
-
   public void removerBebidaById(int id) {
     for (Bebida bebida : bebidas) {
       if (bebida.getId() == id) {
@@ -64,7 +59,7 @@ public class Estoque {
   public void listarBebidasNaoAlcoolicas() {
     for (Bebida bebida : bebidas) {
       if (!bebida.getTipo().equals("Alcoolica")) {
-        System.out.println(bebida.getJson()); //pensar em melhorar isso
+        System.out.println(bebida.getJson()); // pensar em melhorar isso
       }
     }
   }
@@ -72,12 +67,12 @@ public class Estoque {
   public void listarBebidasAlcoolicas() {
     for (Bebida bebida : bebidas) {
       if (bebida.getTipo().equals("Alcoolica")) {
-        System.out.println(bebida.getJson()); //pensar em melhorar isso
+        System.out.println(bebida.getJson()); // pensar em melhorar isso
       }
     }
   }
 
-  public void atualizarBebida(){
-    
+  public void atualizarBebida() {
+
   }
 }

@@ -1,0 +1,20 @@
+[
+  {
+    "cod": "123",
+    "id": 1,
+    "nome": "João",
+    "cpf": "123456789",
+    "email": "gerente@gmail.com",
+    "idade": 20,
+    "json": "{\n  \"cod\": \"123\",\n  \"id\": 0,\n  \"nome\": \"João\",\n  \"cpf\": \"123456789\",\n  \"email\": \"gerente@gmail.com\",\n  \"idade\": 20\n}"
+  },
+  {
+    "cod": "234",
+    "id": 1,
+    "nome": "David",
+    "cpf": "123456789",
+    "email": "gerente@gmail.com",
+    "idade": 20,
+    "json": "{\n  \"cod\": \"123\",\n  \"id\": 0,\n  \"nome\": \"João\",\n  \"cpf\": \"123456789\",\n  \"email\": \"gerente@gmail.com\",\n  \"idade\": 20\n}"
+  }
+]
