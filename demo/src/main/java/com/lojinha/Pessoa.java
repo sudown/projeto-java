@@ -15,17 +15,20 @@ public abstract class Pessoa {
   private String email;
   @Expose
   private int idade;
+  @Expose
+  private String senha;
   private String json;
 
   public Pessoa() {
   }
 
-  public Pessoa(int id, String nome, String cpf, String email, int idade) {
+  public Pessoa(int id, String nome, String cpf, String email, int idade, String senha) {
     this.nome = nome;
     this.cpf = cpf;
     this.email = email;
     this.idade = idade;
     this.id = id;
+    this.senha = senha;
     this.updateJson();
   }
 
@@ -72,6 +75,14 @@ public abstract class Pessoa {
 
   public void setIdade(int idade) {
     this.idade = idade;
+  }
+
+  public String getSenha() {
+    return senha;
+  }
+
+  public void setSenha(String senha) {
+    this.senha = senha;
   }
 
   public void setJson(String json) {

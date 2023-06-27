@@ -83,9 +83,11 @@ public class App {
         String email = scanner.nextLine();
         System.out.print("Idade do Cliente: ");
         int idade = scanner.nextInt();
+        System.out.println("Senha do Cliente: ");
+        String senha = scanner.nextLine();
         scanner.nextLine(); // Limpar o buffer
 
-        return new Cliente(id, nome, cpf, email, idade);
+        return new Cliente(id, nome, cpf, email, idade, senha);
     }
 
     private static Gerente criarGerente(Scanner scanner) {
@@ -102,7 +104,9 @@ public class App {
         scanner.nextLine(); // Limpar o buffer
         System.out.print("Código do Gerente: ");
         String codigo = scanner.nextLine();
+        System.out.println("Senha do Gerente: ");
+        String senha = scanner.nextLine();
 
-        return new Gerente(id, nome, cpf, email, idade, codigo);
+        return new Gerente(id, nome, cpf, email, idade, codigo, senha);
     }
 }

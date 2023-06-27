@@ -1,18 +1,3 @@
 [
-  {
-    "id": 1,
-    "nome": "",
-    "cpf": "Joao",
-    "email": "joao@gmail.com",
-    "idade": 22,
-    "json": "{\n  \"id\": 1,\n  \"nome\": \"\",\n  \"cpf\": \"1212121212\",\n  \"email\": \"sdfsfsd\",\n  \"idade\": 33\n}"
-  },
-  {
-    "id": 2,
-    "nome": "",
-    "cpf": "123123",
-    "email": "afseafef",
-    "idade": 33,
-    "json": "{\n  \"id\": 2,\n  \"nome\": \"\",\n  \"cpf\": \"123123\",\n  \"email\": \"afseafef\",\n  \"idade\": 33\n}"
-  }
+
 ]

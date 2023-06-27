@@ -60,15 +60,20 @@ public class ClienteDB {
   public void atualizarCliente(Cliente clienteAtualizado) {
     for (Cliente cliente : clientes) {
       if (cliente.getId() == clienteAtualizado.getId()) {
-        cliente.setNome(clienteAtualizado.getNome());
-        cliente.setCpf(clienteAtualizado.getCpf());
-        cliente.setEmail(clienteAtualizado.getEmail());
-        cliente.setIdade(clienteAtualizado.getIdade());
+        clientes.set(clientes.indexOf(cliente), clienteAtualizado);
         gravarNoBanco();
         break;
       }
     }
+  }
 
+  public Boolean autenticaCliente(String email, String senha) {
+    for (Cliente cliente : clientes) {
+      if (cliente.getEmail().equals(email) && cliente.getSenha().equals(senha)) {
+        return true;
+      }
+    }
+    return false;
   }
 
   public void listarClientes() {
