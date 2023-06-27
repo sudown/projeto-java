@@ -19,8 +19,8 @@ public class Gerente extends Pessoa {
   public Gerente() {
   }
 
-  public Gerente(String nome, String cpf, String email, int idade, String cod) {
-    super(nome, cpf, email, idade);
+  public Gerente(int id, String nome, String cpf, String email, int idade, String cod) {
+    super(id, nome, cpf, email, idade);
     this.cod = cod;
   }
 

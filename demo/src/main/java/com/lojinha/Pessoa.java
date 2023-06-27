@@ -20,11 +20,12 @@ public abstract class Pessoa {
   public Pessoa() {
   }
 
-  public Pessoa(String nome, String cpf, String email, int idade) {
+  public Pessoa(int id, String nome, String cpf, String email, int idade) {
     this.nome = nome;
     this.cpf = cpf;
     this.email = email;
     this.idade = idade;
+    this.id = id;
     this.updateJson();
   }
 
