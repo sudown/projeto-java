@@ -1,0 +1,11 @@
+[
+  {
+    "id": "d01b02a1-5d2f-4cf0-8ad6-2656373711d2",
+    "idCliente": 1,
+    "idProduto": 1,
+    "quantidade": 3,
+    "valorTotal": 10.0,
+    "data": "dez. 31, 2021",
+    "json": "{\n  \"id\": \"d01b02a1-5d2f-4cf0-8ad6-2656373711d2\",\n  \"idCliente\": 1,\n  \"idProduto\": 1,\n  \"quantidade\": 3,\n  \"valorTotal\": 10.0,\n  \"data\": \"dez. 31, 2021\"\n}"
+  }
+]

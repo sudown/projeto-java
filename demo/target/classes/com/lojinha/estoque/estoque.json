@@ -1,48 +1,35 @@
 [
   {
-    "nome": "Coca",
+    "nome": "Cerveja",
     "id": 1,
-    "preco": 2.5,
-    "quantidade": 10,
-    "tipo": "Refrigerante",
-    "marca": "Coca-Cola",
-    "descricao": "Refrigerante de cola",
-    "dataValidade": "dez. 1, 2020",
-    "json": "{\n  \"nome\": \"Coca\",\n  \"id\": 1,\n  \"preco\": 2.5,\n  \"quantidade\": 10,\n  \"tipo\": \"Refrigerante\",\n  \"marca\": \"Coca-Cola\",\n  \"descricao\": \"Refrigerante de cola\",\n  \"dataValidade\": \"dez. 1, 2020\"\n}"
-  },
-  {
-    "nome": "Fanta",
-    "id": 2,
-    "preco": 2.5,
-    "quantidade": 10,
-    "tipo": "Refrigerante",
-    "marca": "Coca-Cola",
-    "descricao": "Refrigerante de laranja",
-    "dataValidade": "dez. 1, 2020",
-    "json": "{\n  \"nome\": \"Fanta\",\n  \"id\": 2,\n  \"preco\": 2.5,\n  \"quantidade\": 10,\n  \"tipo\": \"Refrigerante\",\n  \"marca\": \"Coca-Cola\",\n  \"descricao\": \"Refrigerante de laranja\",\n  \"dataValidade\": \"dez. 1, 2020\"\n}"
-  },
-  {
-    "nome": "Del vale",
-    "id": 3,
-    "preco": 2.5,
-    "quantidade": 10,
-    "tipo": "Suco",
-    "marca": "Coca-Cola",
-    "descricao": "Suco",
-    "dataValidade": "dez. 1, 2020",
-    "json": "{\n  \"nome\": \"Del vale\",\n  \"id\": 3,\n  \"preco\": 2.5,\n  \"quantidade\": 10,\n  \"tipo\": \"Suco\",\n  \"marca\": \"Coca-Cola\",\n  \"descricao\": \"Suco\",\n  \"dataValidade\": \"dez. 1, 2020\"\n}"
-  },
-  {
-    "teorAlcoolico": 40.0,
-    "tipoBebidaAlcoolica": "Destilada",
-    "nome": "whisky",
-    "id": 4,
-    "preco": 50.0,
-    "quantidade": 10,
+    "preco": 5.0,
+    "quantidade": 983,
     "tipo": "Alcoolica",
-    "marca": "Jack Daniels",
-    "descricao": "Bom",
-    "dataValidade": "out. 10, 2023",
-    "json": "{\n  \"nome\": \"whisky\",\n  \"id\": 4,\n  \"preco\": 50.0,\n  \"quantidade\": 10,\n  \"tipo\": \"bom\",\n  \"marca\": \"Jack Daniels\",\n  \"descricao\": \"Bom\",\n  \"dataValidade\": \"out. 10, 2023\"\n}"
+    "marca": "Skol",
+    "descricao": "Cerveja",
+    "dataValidade": "dez. 31, 2021",
+    "json": "{\n  \"nome\": \"Cerveja\",\n  \"id\": 1,\n  \"preco\": 5.0,\n  \"quantidade\": 983,\n  \"tipo\": \"Alcoolica\",\n  \"marca\": \"Skol\",\n  \"descricao\": \"Cerveja\",\n  \"dataValidade\": \"dez. 31, 2021\"\n}"
+  },
+  {
+    "nome": "Refrigerante",
+    "id": 2,
+    "preco": 3.0,
+    "quantidade": 10,
+    "tipo": "Não alcoolica",
+    "marca": "Coca-cola",
+    "descricao": "Refrigerante",
+    "dataValidade": "dez. 31, 2021",
+    "json": "{\n  \"nome\": \"Refrigerante\",\n  \"id\": 2,\n  \"preco\": 3.0,\n  \"quantidade\": 10,\n  \"tipo\": \"Não alcoolica\",\n  \"marca\": \"Coca-cola\",\n  \"descricao\": \"Refrigerante\",\n  \"dataValidade\": \"dez. 31, 2021\"\n}"
+  },
+  {
+    "nome": "Suco",
+    "id": 3,
+    "preco": 2.0,
+    "quantidade": 10,
+    "tipo": "Não alcoolica",
+    "marca": "Del Valle",
+    "descricao": "Suco",
+    "dataValidade": "dez. 31, 2021",
+    "json": "{\n  \"nome\": \"Suco\",\n  \"id\": 3,\n  \"preco\": 2.0,\n  \"quantidade\": 10,\n  \"tipo\": \"Não alcoolica\",\n  \"marca\": \"Del Valle\",\n  \"descricao\": \"Suco\",\n  \"dataValidade\": \"dez. 31, 2021\"\n}"
   }
 ]

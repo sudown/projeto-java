@@ -72,7 +72,26 @@ public class Estoque {
     }
   }
 
-  public void atualizarBebida() {
+  public Bebida getBebidaId(int id) {
+    for (Bebida bebida : bebidas) {
+      if (bebida.getId() == id) {
+        return bebida;
+      }
+    }
+    return null;
+  }
 
+  public void Vender(int id, int quantidade) {
+    for (Bebida bebida : bebidas) {
+      if (bebida.getId() == id) {
+        if (bebida.getQuantidade() < quantidade) {
+          System.out.println("Não há bebidas suficientes no estoque");
+          return;
+        } else {
+          bebida.setQuantidade(bebida.getQuantidade() - quantidade);
+          gravarEstoqueEmArquivo();
+        }
+      }
+    }
   }
 }
