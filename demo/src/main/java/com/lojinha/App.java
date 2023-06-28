@@ -21,7 +21,5 @@ public class App {
     // estoque.adicionarBebida(refrigerante);
     // estoque.adicionarBebida(suco);
 
-    vendasDB.adicionarVenda(1, 1, 3, 10, "2021-12-31");
-
   }
 }

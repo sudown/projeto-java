@@ -3,12 +3,12 @@
     "nome": "Cerveja",
     "id": 1,
     "preco": 5.0,
-    "quantidade": 983,
+    "quantidade": 887,
     "tipo": "Alcoolica",
     "marca": "Skol",
     "descricao": "Cerveja",
     "dataValidade": "dez. 31, 2021",
-    "json": "{\n  \"nome\": \"Cerveja\",\n  \"id\": 1,\n  \"preco\": 5.0,\n  \"quantidade\": 983,\n  \"tipo\": \"Alcoolica\",\n  \"marca\": \"Skol\",\n  \"descricao\": \"Cerveja\",\n  \"dataValidade\": \"dez. 31, 2021\"\n}"
+    "json": "{\n  \"nome\": \"Cerveja\",\n  \"id\": 1,\n  \"preco\": 5.0,\n  \"quantidade\": 887,\n  \"tipo\": \"Alcoolica\",\n  \"marca\": \"Skol\",\n  \"descricao\": \"Cerveja\",\n  \"dataValidade\": \"dez. 31, 2021\"\n}"
   },
   {
     "nome": "Refrigerante",

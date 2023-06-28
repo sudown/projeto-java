@@ -25,12 +25,11 @@ public class Venda {
   private Date  data;
   private String json;
 
-  public Venda(int idCliente, int idProduto, int quantidade, double valorTotal, String data) {
+  public Venda(int idCliente, int idProduto, int quantidade, String data) {
     this.id = UUID.randomUUID().toString();
     this.idCliente = idCliente;
     this.idProduto = idProduto;
     this.quantidade = quantidade;
-    this.valorTotal = valorTotal;
     this.data = Date.valueOf(data.toString());
 
     this.updateJson();

@@ -43,14 +43,31 @@ public class VendasDB {
     }
   }
 
-  public void adicionarVenda(int idCliente, int idBebida, int quantidade, double valorTotal, String  data) {
+  public void adicionarVenda(int idCliente, int idBebida, int quantidade, String  data) {
     Estoque estoque = new Estoque();
     estoque.carregarEstoqueDoArquivo();
+    carregarDoBanco();
 
     Bebida bebida = estoque.getBebidaId(idBebida);
     estoque.Vender(idBebida, quantidade);
-    Venda venda = new Venda(idCliente, idBebida, quantidade, valorTotal, data);
+    Venda venda = new Venda(idCliente, idBebida, quantidade, data);
+    venda.setValorTotal(quantidade * bebida.getPreco());
     vendas.add(venda);
     gravarNoBanco();
   }
+
+public int calcularTotalBebidasVendidas(int ano, int mes) {
+  carregarDoBanco();
+  int totalBebidasVendidas = 0;
+  for (Venda venda : vendas) {
+    Date dataVenda = venda.getData();
+    LocalDate localDate = dataVenda.toLocalDate();
+    if (localDate.getYear() == ano && localDate.getMonthValue() == mes) {
+      totalBebidasVendidas += venda.getQuantidade();
+    }
+  }
+  return totalBebidasVendidas;
+}
+
+
 }
