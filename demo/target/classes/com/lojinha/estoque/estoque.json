@@ -1,48 +1,24 @@
 [
   {
-    "nome": "Coca",
+    "nome": "Coca-Cola",
     "id": 1,
-    "preco": 2.5,
-    "quantidade": 10,
+    "preco": 5.0,
+    "quantidade": 7,
     "tipo": "Refrigerante",
     "marca": "Coca-Cola",
     "descricao": "Refrigerante de cola",
-    "dataValidade": "dez. 1, 2020",
-    "json": "{\n  \"nome\": \"Coca\",\n  \"id\": 1,\n  \"preco\": 2.5,\n  \"quantidade\": 10,\n  \"tipo\": \"Refrigerante\",\n  \"marca\": \"Coca-Cola\",\n  \"descricao\": \"Refrigerante de cola\",\n  \"dataValidade\": \"dez. 1, 2020\"\n}"
+    "dataValidade": "dez 31, 2021",
+    "json": "{\n  \"nome\": \"Coca-Cola\",\n  \"id\": 1,\n  \"preco\": 5.0,\n  \"quantidade\": 7,\n  \"tipo\": \"Refrigerante\",\n  \"marca\": \"Coca-Cola\",\n  \"descricao\": \"Refrigerante de cola\",\n  \"dataValidade\": \"dez 31, 2021\"\n}"
   },
   {
-    "nome": "Fanta",
+    "nome": "Pitu",
     "id": 2,
-    "preco": 2.5,
-    "quantidade": 10,
-    "tipo": "Refrigerante",
-    "marca": "Coca-Cola",
-    "descricao": "Refrigerante de laranja",
-    "dataValidade": "dez. 1, 2020",
-    "json": "{\n  \"nome\": \"Fanta\",\n  \"id\": 2,\n  \"preco\": 2.5,\n  \"quantidade\": 10,\n  \"tipo\": \"Refrigerante\",\n  \"marca\": \"Coca-Cola\",\n  \"descricao\": \"Refrigerante de laranja\",\n  \"dataValidade\": \"dez. 1, 2020\"\n}"
-  },
-  {
-    "nome": "Del vale",
-    "id": 3,
-    "preco": 2.5,
-    "quantidade": 10,
-    "tipo": "Suco",
-    "marca": "Coca-Cola",
-    "descricao": "Suco",
-    "dataValidade": "dez. 1, 2020",
-    "json": "{\n  \"nome\": \"Del vale\",\n  \"id\": 3,\n  \"preco\": 2.5,\n  \"quantidade\": 10,\n  \"tipo\": \"Suco\",\n  \"marca\": \"Coca-Cola\",\n  \"descricao\": \"Suco\",\n  \"dataValidade\": \"dez. 1, 2020\"\n}"
-  },
-  {
-    "teorAlcoolico": 40.0,
-    "tipoBebidaAlcoolica": "Destilada",
-    "nome": "whisky",
-    "id": 4,
-    "preco": 50.0,
-    "quantidade": 10,
-    "tipo": "Alcoolica",
-    "marca": "Jack Daniels",
-    "descricao": "Bom",
-    "dataValidade": "out. 10, 2023",
-    "json": "{\n  \"nome\": \"whisky\",\n  \"id\": 4,\n  \"preco\": 50.0,\n  \"quantidade\": 10,\n  \"tipo\": \"bom\",\n  \"marca\": \"Jack Daniels\",\n  \"descricao\": \"Bom\",\n  \"dataValidade\": \"out. 10, 2023\"\n}"
+    "preco": 10.0,
+    "quantidade": 0,
+    "tipo": "Cachaça",
+    "marca": "Pitu",
+    "descricao": "Cachaça Pitu",
+    "dataValidade": "dez 31, 2021",
+    "json": "{\n  \"nome\": \"Pitu\",\n  \"id\": 2,\n  \"preco\": 10.0,\n  \"quantidade\": 0,\n  \"tipo\": \"Cachaça\",\n  \"marca\": \"Pitu\",\n  \"descricao\": \"Cachaça Pitu\",\n  \"dataValidade\": \"dez 31, 2021\"\n}"
   }
 ]
