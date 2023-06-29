@@ -1,29 +1,38 @@
 [
   {
-    "id": "136566f3-e820-4161-b0c5-4783cc8b0ae8",
+    "id": "b3936bf2-991a-444c-8b15-fcbd68582e32",
     "idCliente": 1,
     "idProduto": 1,
-    "quantidade": 10,
-    "valorTotal": 50.0,
-    "data": "dez. 31, 2021",
-    "json": "{\n  \"id\": \"136566f3-e820-4161-b0c5-4783cc8b0ae8\",\n  \"idCliente\": 1,\n  \"idProduto\": 1,\n  \"quantidade\": 10,\n  \"valorTotal\": 0.0,\n  \"data\": \"dez. 31, 2021\"\n}"
+    "quantidade": 3,
+    "valorTotal": 15.0,
+    "data": "out 10, 2022",
+    "json": "{\n  \"id\": \"b3936bf2-991a-444c-8b15-fcbd68582e32\",\n  \"idCliente\": 1,\n  \"idProduto\": 1,\n  \"quantidade\": 3,\n  \"valorTotal\": 0.0,\n  \"data\": \"out 10, 2022\"\n}"
   },
   {
-    "id": "5a7367e5-ffe9-420e-b2fb-1175e702be37",
+    "id": "0dfb0054-47d3-4976-8676-0bc75fe75bc3",
     "idCliente": 1,
-    "idProduto": 1,
-    "quantidade": 8,
-    "valorTotal": 40.0,
-    "data": "dez. 31, 2021",
-    "json": "{\n  \"id\": \"5a7367e5-ffe9-420e-b2fb-1175e702be37\",\n  \"idCliente\": 1,\n  \"idProduto\": 1,\n  \"quantidade\": 8,\n  \"valorTotal\": 0.0,\n  \"data\": \"dez. 31, 2021\"\n}"
-  },
-  {
-    "id": "06ae5261-f237-4001-b9d0-4fb24a5eb848",
-    "idCliente": 1,
-    "idProduto": 1,
+    "idProduto": 2,
     "quantidade": 5,
-    "valorTotal": 25.0,
-    "data": "dez. 31, 2021",
-    "json": "{\n  \"id\": \"06ae5261-f237-4001-b9d0-4fb24a5eb848\",\n  \"idCliente\": 1,\n  \"idProduto\": 1,\n  \"quantidade\": 5,\n  \"valorTotal\": 0.0,\n  \"data\": \"dez. 31, 2021\"\n}"
+    "valorTotal": 50.0,
+    "data": "jun 6, 2023",
+    "json": "{\n  \"id\": \"0dfb0054-47d3-4976-8676-0bc75fe75bc3\",\n  \"idCliente\": 1,\n  \"idProduto\": 2,\n  \"quantidade\": 5,\n  \"valorTotal\": 0.0,\n  \"data\": \"jun 6, 2023\"\n}"
+  },
+  {
+    "id": "0dfb0054-47d3-4976-8676-0bs75fe76bc3",
+    "idCliente": 1,
+    "idProduto": 2,
+    "quantidade": 5,
+    "valorTotal": 50.0,
+    "data": "jun 6, 2023",
+    "json": "{\n  \"id\": \"0dfb0054-47d3-4976-8676-0bc75fe75bc3\",\n  \"idCliente\": 1,\n  \"idProduto\": 2,\n  \"quantidade\": 5,\n  \"valorTotal\": 0.0,\n  \"data\": \"jun 6, 2023\"\n}"
+  },
+  {
+    "id": "b3936bf2-991a-444c-8b15-fcbd68582e32",
+    "idCliente": 1,
+    "idProduto": 1,
+    "quantidade": 1,
+    "valorTotal": 5.0,
+    "data": "out 10, 2022",
+    "json": "{\n  \"id\": \"b3936bf2-991a-444c-8b15-fcbd68582e32\",\n  \"idCliente\": 1,\n  \"idProduto\": 1,\n  \"quantidade\": 3,\n  \"valorTotal\": 0.0,\n  \"data\": \"out 10, 2022\"\n}"
   }
 ]

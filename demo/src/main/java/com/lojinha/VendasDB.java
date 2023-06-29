@@ -4,7 +4,6 @@ import java.io.*;
 import java.time.LocalDate;
 import java.sql.Date;
 
-
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
@@ -43,7 +42,7 @@ public class VendasDB {
     }
   }
 
-  public void adicionarVenda(int idCliente, int idBebida, int quantidade, String  data) {
+  public void adicionarVenda(int idCliente, int idBebida, int quantidade, String data) {
     Estoque estoque = new Estoque();
     estoque.carregarEstoqueDoArquivo();
     carregarDoBanco();
@@ -56,18 +55,16 @@ public class VendasDB {
     gravarNoBanco();
   }
 
-public int calcularTotalBebidasVendidas(int ano, int mes) {
-  carregarDoBanco();
-  int totalBebidasVendidas = 0;
-  for (Venda venda : vendas) {
-    Date dataVenda = venda.getData();
-    LocalDate localDate = dataVenda.toLocalDate();
-    if (localDate.getYear() == ano && localDate.getMonthValue() == mes) {
-      totalBebidasVendidas += venda.getQuantidade();
+  public int vendasPorMes(int ano, int mes) {
+    carregarDoBanco();
+    int totalBebidasVendidas = 0;
+    for (Venda venda : vendas) {
+      Date dataVenda = venda.getData();
+      LocalDate localDate = dataVenda.toLocalDate();
+      if (localDate.getYear() == ano && localDate.getMonthValue() == mes) {
+        totalBebidasVendidas += venda.getQuantidade();
+      }
     }
+    return totalBebidasVendidas;
   }
-  return totalBebidasVendidas;
-}
-
-
 }

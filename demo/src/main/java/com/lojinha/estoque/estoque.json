@@ -1,35 +1,24 @@
 [
   {
-    "nome": "Cerveja",
+    "nome": "Coca-Cola",
     "id": 1,
     "preco": 5.0,
-    "quantidade": 887,
-    "tipo": "Alcoolica",
-    "marca": "Skol",
-    "descricao": "Cerveja",
-    "dataValidade": "dez. 31, 2021",
-    "json": "{\n  \"nome\": \"Cerveja\",\n  \"id\": 1,\n  \"preco\": 5.0,\n  \"quantidade\": 887,\n  \"tipo\": \"Alcoolica\",\n  \"marca\": \"Skol\",\n  \"descricao\": \"Cerveja\",\n  \"dataValidade\": \"dez. 31, 2021\"\n}"
+    "quantidade": 7,
+    "tipo": "Refrigerante",
+    "marca": "Coca-Cola",
+    "descricao": "Refrigerante de cola",
+    "dataValidade": "dez 31, 2021",
+    "json": "{\n  \"nome\": \"Coca-Cola\",\n  \"id\": 1,\n  \"preco\": 5.0,\n  \"quantidade\": 7,\n  \"tipo\": \"Refrigerante\",\n  \"marca\": \"Coca-Cola\",\n  \"descricao\": \"Refrigerante de cola\",\n  \"dataValidade\": \"dez 31, 2021\"\n}"
   },
   {
-    "nome": "Refrigerante",
+    "nome": "Pitu",
     "id": 2,
-    "preco": 3.0,
-    "quantidade": 10,
-    "tipo": "Não alcoolica",
-    "marca": "Coca-cola",
-    "descricao": "Refrigerante",
-    "dataValidade": "dez. 31, 2021",
-    "json": "{\n  \"nome\": \"Refrigerante\",\n  \"id\": 2,\n  \"preco\": 3.0,\n  \"quantidade\": 10,\n  \"tipo\": \"Não alcoolica\",\n  \"marca\": \"Coca-cola\",\n  \"descricao\": \"Refrigerante\",\n  \"dataValidade\": \"dez. 31, 2021\"\n}"
-  },
-  {
-    "nome": "Suco",
-    "id": 3,
-    "preco": 2.0,
-    "quantidade": 10,
-    "tipo": "Não alcoolica",
-    "marca": "Del Valle",
-    "descricao": "Suco",
-    "dataValidade": "dez. 31, 2021",
-    "json": "{\n  \"nome\": \"Suco\",\n  \"id\": 3,\n  \"preco\": 2.0,\n  \"quantidade\": 10,\n  \"tipo\": \"Não alcoolica\",\n  \"marca\": \"Del Valle\",\n  \"descricao\": \"Suco\",\n  \"dataValidade\": \"dez. 31, 2021\"\n}"
+    "preco": 10.0,
+    "quantidade": 0,
+    "tipo": "Cachaça",
+    "marca": "Pitu",
+    "descricao": "Cachaça Pitu",
+    "dataValidade": "dez 31, 2021",
+    "json": "{\n  \"nome\": \"Pitu\",\n  \"id\": 2,\n  \"preco\": 10.0,\n  \"quantidade\": 0,\n  \"tipo\": \"Cachaça\",\n  \"marca\": \"Pitu\",\n  \"descricao\": \"Cachaça Pitu\",\n  \"dataValidade\": \"dez 31, 2021\"\n}"
   }
 ]

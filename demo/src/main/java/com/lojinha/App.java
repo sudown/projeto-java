@@ -9,17 +9,8 @@ public class App {
     VendasDB vendasDB = new VendasDB();
     clienteDB.carregarDoBanco();
 
-    // Bebida cerveja = new Bebida("Cerveja", 1, 5.00, 10, "Alcoolica", "Skol",
-    // "Cerveja", "2021-12-31");
-    // Bebida refrigerante = new Bebida("Refrigerante", 2, 3.00, 10, "Não
-    // alcoolica", "Coca-cola", "Refrigerante",
-    // "2021-12-31");
-    // Bebida suco = new Bebida("Suco", 3, 2.00, 10, "Não alcoolica", "Del Valle",
-    // "Suco", "2021-12-31");
-
-    // estoque.adicionarBebida(cerveja);
-    // estoque.adicionarBebida(refrigerante);
-    // estoque.adicionarBebida(suco);
-
+    Estoque estoque = new Estoque();
+    estoque.carregarEstoqueDoArquivo();
+    vendasDB.bebidaMaisVendida();
   }
 }
