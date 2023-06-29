@@ -1,5 +1,0 @@
-javac -d bin .\com\gui\Interface.java
-javac -d bin .\com\gui\InterfaceCliente.java    
-javac -d bin .\com\gui\InterfaceGerente.java    
-javac -d bin .\com\gui\CoisaGerente.java        
-java -cp bin com.gui.Interface

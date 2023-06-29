@@ -1,24 +1,35 @@
 [
   {
-    "nome": "Coca-Cola",
+    "nome": "Wisky",
     "id": 1,
-    "preco": 5.0,
-    "quantidade": 7,
-    "tipo": "Refrigerante",
-    "marca": "Coca-Cola",
-    "descricao": "Refrigerante de cola",
-    "dataValidade": "dez 31, 2021",
-    "json": "{\n  \"nome\": \"Coca-Cola\",\n  \"id\": 1,\n  \"preco\": 5.0,\n  \"quantidade\": 7,\n  \"tipo\": \"Refrigerante\",\n  \"marca\": \"Coca-Cola\",\n  \"descricao\": \"Refrigerante de cola\",\n  \"dataValidade\": \"dez 31, 2021\"\n}"
+    "preco": 40.0,
+    "quantidade": 98,
+    "tipo": "Wisky",
+    "marca": "Wisky",
+    "descricao": "Destilado",
+    "dataValidade": "dez. 12, 2020",
+    "json": "{\n  \"nome\": \"Wisky\",\n  \"id\": 1,\n  \"preco\": 40.0,\n  \"quantidade\": 98,\n  \"tipo\": \"Wisky\",\n  \"marca\": \"Wisky\",\n  \"descricao\": \"Destilado\",\n  \"dataValidade\": \"dez. 12, 2020\"\n}"
   },
   {
-    "nome": "Pitu",
+    "nome": "Vodka",
     "id": 2,
-    "preco": 10.0,
-    "quantidade": 0,
-    "tipo": "Cachaça",
-    "marca": "Pitu",
-    "descricao": "Cachaça Pitu",
-    "dataValidade": "dez 31, 2021",
-    "json": "{\n  \"nome\": \"Pitu\",\n  \"id\": 2,\n  \"preco\": 10.0,\n  \"quantidade\": 0,\n  \"tipo\": \"Cachaça\",\n  \"marca\": \"Pitu\",\n  \"descricao\": \"Cachaça Pitu\",\n  \"dataValidade\": \"dez 31, 2021\"\n}"
+    "preco": 40.0,
+    "quantidade": 96,
+    "tipo": "Vodka",
+    "marca": "Vodka",
+    "descricao": "Destilado",
+    "dataValidade": "dez. 12, 2020",
+    "json": "{\n  \"nome\": \"Vodka\",\n  \"id\": 2,\n  \"preco\": 40.0,\n  \"quantidade\": 96,\n  \"tipo\": \"Vodka\",\n  \"marca\": \"Vodka\",\n  \"descricao\": \"Destilado\",\n  \"dataValidade\": \"dez. 12, 2020\"\n}"
+  },
+  {
+    "nome": "Coca-Cola",
+    "id": 3,
+    "preco": 7.0,
+    "quantidade": 100,
+    "tipo": "Coca-Cola",
+    "marca": "Coca-Cola",
+    "descricao": "Fermentado",
+    "dataValidade": "dez. 12, 2020",
+    "json": "{\n  \"nome\": \"Coca-Cola\",\n  \"id\": 3,\n  \"preco\": 7.0,\n  \"quantidade\": 100,\n  \"tipo\": \"Coca-Cola\",\n  \"marca\": \"Coca-Cola\",\n  \"descricao\": \"Fermentado\",\n  \"dataValidade\": \"dez. 12, 2020\"\n}"
   }
 ]

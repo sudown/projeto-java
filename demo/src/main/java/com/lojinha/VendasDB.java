@@ -11,6 +11,8 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+import javax.xml.crypto.Data;
+
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 
@@ -112,4 +114,67 @@ public class VendasDB {
     }
     System.out.println("A bebida menos vendida foi " + bebidaMenosVendida.getNome() + " com " + quantidadeVendida + " unidades vendidas, arrecadacao de R$ " + quantidadeVendida * bebidaMenosVendida.getPreco() + " reais.");
   }
+
+  public int quantidadeComprada(int id) {
+    carregarDoBanco();
+    int totalBebidasCompradas = 0;
+    for (Venda venda : vendas) {
+      if (venda.getIdCliente() == id) {
+        totalBebidasCompradas += venda.getQuantidade();
+      }
+    }
+    return totalBebidasCompradas;
+  }
+
+  public void melhorCLiente(){
+    carregarDoBanco();
+    int quantidadeComprada = 0;
+    Cliente melhorCliente = new Cliente();
+
+    for (Venda venda : vendas) {
+      int quantidade = quantidadeComprada(venda.getIdCliente());
+      if (quantidade > quantidadeComprada) {
+        quantidadeComprada = quantidade;
+        ClienteDB clienteDB = new ClienteDB();
+        clienteDB.carregarDoBanco();
+        melhorCliente = clienteDB.getClienteById(venda.getIdCliente());
+      }
+    }
+    System.out.println("O melhor cliente foi " + melhorCliente.getNome() + " com " + quantidadeComprada + " unidades compradas");
+  }
+
+  public int vendasPorDia(int ano, int mes, int dia) {
+    carregarDoBanco();
+    int totalBebidasVendidas = 0;
+    for (Venda venda : vendas) {
+      Date dataVenda = venda.getData();
+      LocalDate localDate = dataVenda.toLocalDate();
+      if (localDate.getYear() == ano && localDate.getMonthValue() == mes && localDate.getDayOfMonth() == dia) {
+        totalBebidasVendidas += venda.getQuantidade();
+      }
+    }
+    return totalBebidasVendidas;
+  }
+
+  public void melhorDia(){
+    carregarDoBanco();
+    int quantidadeVendida = 0;
+    int dia = 0;
+    int mes = 0;
+    int ano = 0;
+
+    for (Venda venda : vendas) {
+      Date dataVenda = venda.getData();
+      LocalDate localDate = dataVenda.toLocalDate();
+      int quantidade = vendasPorDia(localDate.getYear(), localDate.getMonthValue(), localDate.getDayOfMonth());
+      if (quantidade > quantidadeVendida) {
+        quantidadeVendida = quantidade;
+        dia = localDate.getDayOfMonth();
+        mes = localDate.getMonthValue();
+        ano = localDate.getYear();
+      }
+    }
+    System.out.println("O melhor dia foi " + dia + "/" + mes + "/" + ano + " com " + quantidadeVendida + " unidades vendidas");
+  }
+
 }

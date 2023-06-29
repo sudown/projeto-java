@@ -1,20 +1,12 @@
 [
   {
-    "cod": "123",
+    "cod": "192",
     "id": 1,
-    "nome": "Jose Alberto",
-    "cpf": "123.456.789-00",
-    "email": "joseAlberto@gmail.com",
-    "idade": 20,
-    "json": "{\n  \"id\": 1,\n  \"nome\": \"Jose Alberto\",\n  \"cpf\": \"123.456.789-00\",\n  \"email\": \"joseAlberto@gmail.com\",\n  \"idade\": 20\n}"
-  },
-  {
-    "cod": "123",
-    "id": 2,
-    "nome": "Jose Alberto",
-    "cpf": "123.456.789-00",
-    "email": "joseAlberto@gmail.com",
-    "idade": 20,
-    "json": "{\n  \"id\": 1,\n  \"nome\": \"Jose Alberto\",\n  \"cpf\": \"123.456.789-00\",\n  \"email\": \"joseAlberto@gmail.com\",\n  \"idade\": 20\n}"
+    "nome": "Carlos",
+    "cpf": "12987654432",
+    "email": "carlos@gmail.com",
+    "idade": 21,
+    "senha": "123",
+    "json": "{\n  \"id\": 1,\n  \"nome\": \"Carlos\",\n  \"cpf\": \"12987654432\",\n  \"email\": \"carlos@gmail.com\",\n  \"idade\": 21,\n  \"senha\": \"123\"\n}"
   }
 ]

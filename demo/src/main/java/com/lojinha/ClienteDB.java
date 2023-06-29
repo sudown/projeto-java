@@ -57,6 +57,15 @@ public class ClienteDB {
     }
   }
 
+  public Cliente getClienteById(int id) {
+    for (Cliente cliente : clientes) {
+      if (cliente.getId() == id) {
+        return cliente;
+      }
+    }
+    return null;
+  }
+
   public void atualizarCliente(Cliente clienteAtualizado) {
     for (Cliente cliente : clientes) {
       if (cliente.getId() == clienteAtualizado.getId()) {
