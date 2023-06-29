@@ -1,4 +1,4 @@
-package com.gui;
+package com.lojinha;
 
 import java.awt.*;
 import java.awt.event.ActionEvent;

@@ -15,5 +15,7 @@ public class App {
     // System.out.println(vendasDB.quantidadeVendida(1));
     // vendasDB.bebidaMenosVendida();
     vendasDB.bebidaMenosVendida();
+
+    Interface interfacePrincipal = new Interface();
   }
 }

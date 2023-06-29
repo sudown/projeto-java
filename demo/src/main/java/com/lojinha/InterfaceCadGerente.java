@@ -1,4 +1,4 @@
-package com.gui;
+package com.lojinha;
 
 import java.awt.FlowLayout;
 import java.awt.event.ActionEvent;
@@ -10,8 +10,8 @@ import javax.swing.JLabel;
 import javax.swing.JPasswordField;
 import javax.swing.JTextField;
 
-public class CoisaGerente extends JFrame {
-    public CoisaGerente(){
+public class InterfaceCadGerente extends JFrame {
+    public InterfaceCadGerente(){
         super("Interface Gerente");
         setSize(800, 600);
         setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);

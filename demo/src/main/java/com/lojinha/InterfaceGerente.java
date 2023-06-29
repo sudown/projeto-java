@@ -1,4 +1,4 @@
-package com.gui;
+package com.lojinha;
 
 import java.awt.*;
 import java.awt.event.ActionEvent;
@@ -31,7 +31,7 @@ public class InterfaceGerente extends JFrame {
         buttonAddGerente.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
                 // Lógica para adicionar gerente
-                CoisaGerente gerentePanel = new CoisaGerente();
+                InterfaceCadGerente gerentePanel = new InterfaceCadGerente();
                 gerentePanel.setVisible(true);
                 System.out.println("Adicionar Gerente");
             }
@@ -70,6 +70,15 @@ public class InterfaceGerente extends JFrame {
             public void actionPerformed(ActionEvent e) {
                 // Lógica para atualizar gerente
                 System.out.println("Atualizar Gerente");
+            }
+        });
+
+         JButton buttonInformações = new JButton("6. Atualizar Gerente");
+        buttonInformações.setSize(80, 50);
+        buttonInformações.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+                // Lógica para atualizar gerente
+                System.out.println("Informações");
             }
         });
         
