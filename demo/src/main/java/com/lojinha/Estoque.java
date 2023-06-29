@@ -10,7 +10,7 @@ import com.google.gson.GsonBuilder;
 
 public class Estoque {
   public List<Bebida> bebidas;
-  public String jsonFilePath = "./demo/src/main/java/com/lojinha/estoque/estoque.json";
+  public String jsonFilePath = "projeto-java-no-interface\\demo\\src\\main\\java\\com\\lojinha\\estoque\\estoque.json";
 
   public Estoque() {
     bebidas = new ArrayList<>();
@@ -87,7 +87,12 @@ public class Estoque {
         if (bebida.getQuantidade() < quantidade) {
           System.out.println("Não há bebidas suficientes no estoque");
           return;
-        } else {
+        } else if (bebida.getQuantidade() < 3) {
+          System.out.println("A bebida está acabando, por favor reponha o estoque");
+          bebida.setQuantidade(bebida.getQuantidade() - quantidade);
+          gravarEstoqueEmArquivo();
+        }
+        else {
           bebida.setQuantidade(bebida.getQuantidade() - quantidade);
           gravarEstoqueEmArquivo();
         }
