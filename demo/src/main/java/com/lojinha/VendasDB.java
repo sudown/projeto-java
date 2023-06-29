@@ -67,4 +67,49 @@ public class VendasDB {
     }
     return totalBebidasVendidas;
   }
+
+  public int quantidadeVendida(int id) {
+    carregarDoBanco();
+    int totalBebidasVendidas = 0;
+    for (Venda venda : vendas) {
+      if (venda.getIdProduto() == id) {
+        totalBebidasVendidas += venda.getQuantidade();
+      }
+    }
+    return totalBebidasVendidas;
+  }
+
+  public void bebidaMaisVendida(){
+    carregarDoBanco();
+    int quantidadeVendida = 0;
+    Bebida bebidaMaisVendida = new Bebida();
+
+    for (Venda venda : vendas) {
+      int quantidade = quantidadeVendida(venda.getIdProduto());
+      if (quantidade > quantidadeVendida) {
+        quantidadeVendida = quantidade;
+        Estoque estoque = new Estoque();
+        estoque.carregarEstoqueDoArquivo();
+        bebidaMaisVendida = estoque.getBebidaId(venda.getIdProduto());
+      }
+    }
+    System.out.println("A bebida mais vendida foi " + bebidaMaisVendida.getNome() + " com " + quantidadeVendida + " unidades vendidas, arrecadacao de R$ " + quantidadeVendida * bebidaMaisVendida.getPreco() + " reais.");
+  }
+
+  public void bebidaMenosVendida(){
+    carregarDoBanco();
+    int quantidadeVendida = Integer.MAX_VALUE;  
+    Bebida bebidaMenosVendida = new Bebida();
+
+    for (Venda venda : vendas) {
+      int quantidade = quantidadeVendida(venda.getIdProduto());
+      if (quantidade < quantidadeVendida) {
+        quantidadeVendida = quantidade;
+        Estoque estoque = new Estoque();
+        estoque.carregarEstoqueDoArquivo();
+        bebidaMenosVendida = estoque.getBebidaId(venda.getIdProduto());
+      }
+    }
+    System.out.println("A bebida menos vendida foi " + bebidaMenosVendida.getNome() + " com " + quantidadeVendida + " unidades vendidas, arrecadacao de R$ " + quantidadeVendida * bebidaMenosVendida.getPreco() + " reais.");
+  }
 }

@@ -11,6 +11,9 @@ public class App {
 
     Estoque estoque = new Estoque();
     estoque.carregarEstoqueDoArquivo();
-    vendasDB.bebidaMaisVendida();
+
+    // System.out.println(vendasDB.quantidadeVendida(1));
+    // vendasDB.bebidaMenosVendida();
+    vendasDB.bebidaMenosVendida();
   }
 }
