@@ -1,0 +1,35 @@
+[
+  {
+    "nome": "Vodka",
+    "id": 2,
+    "preco": 40.0,
+    "quantidade": 95,
+    "tipo": "Vodka",
+    "marca": "Vodka",
+    "descricao": "Destilado",
+    "dataValidade": "dez 12, 2020",
+    "json": "{\n  \"nome\": \"Vodka\",\n  \"id\": 2,\n  \"preco\": 40.0,\n  \"quantidade\": 95,\n  \"tipo\": \"Vodka\",\n  \"marca\": \"Vodka\",\n  \"descricao\": \"Destilado\",\n  \"dataValidade\": \"dez 12, 2020\"\n}"
+  },
+  {
+    "nome": "Coca-Cola",
+    "id": 3,
+    "preco": 7.0,
+    "quantidade": 100,
+    "tipo": "Coca-Cola",
+    "marca": "Coca-Cola",
+    "descricao": "Fermentado",
+    "dataValidade": "dez 12, 2020",
+    "json": "{\n  \"nome\": \"Coca-Cola\",\n  \"id\": 3,\n  \"preco\": 7.0,\n  \"quantidade\": 100,\n  \"tipo\": \"Coca-Cola\",\n  \"marca\": \"Coca-Cola\",\n  \"descricao\": \"Fermentado\",\n  \"dataValidade\": \"dez 12, 2020\"\n}"
+  },
+  {
+    "nome": "Cerveja",
+    "id": 4,
+    "preco": 7.0,
+    "quantidade": 0,
+    "tipo": "Cerveja",
+    "marca": "Skol",
+    "descricao": "Fermentado",
+    "dataValidade": "dez 12, 2020",
+    "json": "{\n  \"nome\": \"Cerveja\",\n  \"id\": 4,\n  \"preco\": 7.0,\n  \"quantidade\": 0,\n  \"tipo\": \"Cerveja\",\n  \"marca\": \"Skol\",\n  \"descricao\": \"Fermentado\",\n  \"dataValidade\": \"dez 12, 2020\"\n}"
+  }
+]

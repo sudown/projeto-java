@@ -1,0 +1,74 @@
+[
+  {
+    "id": "4152e7ad-756d-40b3-88b8-7b2be2b73dd3",
+    "idCliente": 1,
+    "idProduto": 1,
+    "quantidade": 2,
+    "valorTotal": 80.0,
+    "data": "jun 6, 2023",
+    "json": "{\n  \"id\": \"4152e7ad-756d-40b3-88b8-7b2be2b73dd3\",\n  \"idCliente\": 1,\n  \"idProduto\": 1,\n  \"quantidade\": 2,\n  \"valorTotal\": 0.0,\n  \"data\": \"jun 6, 2023\"\n}"
+  },
+  {
+    "id": "a9a041c4-d820-496b-8923-71c7f62bfa0b",
+    "idCliente": 2,
+    "idProduto": 2,
+    "quantidade": 3,
+    "valorTotal": 120.0,
+    "data": "jun 6, 2023",
+    "json": "{\n  \"id\": \"a9a041c4-d820-496b-8923-71c7f62bfa0b\",\n  \"idCliente\": 2,\n  \"idProduto\": 2,\n  \"quantidade\": 3,\n  \"valorTotal\": 0.0,\n  \"data\": \"jun 6, 2023\"\n}"
+  },
+  {
+    "id": "a0506954-c01e-479b-99e5-32788ac10b91",
+    "idCliente": 1,
+    "idProduto": 2,
+    "quantidade": 1,
+    "valorTotal": 40.0,
+    "data": "jun 6, 2023",
+    "json": "{\n  \"id\": \"a0506954-c01e-479b-99e5-32788ac10b91\",\n  \"idCliente\": 1,\n  \"idProduto\": 2,\n  \"quantidade\": 1,\n  \"valorTotal\": 0.0,\n  \"data\": \"jun 6, 2023\"\n}"
+  },
+  {
+    "id": "1ed5310b-6737-45a2-8066-b30a6849b4e1",
+    "idCliente": 2,
+    "idProduto": 2,
+    "quantidade": 1,
+    "valorTotal": 40.0,
+    "data": "fev 25, 2023",
+    "json": "{\n  \"id\": \"1ed5310b-6737-45a2-8066-b30a6849b4e1\",\n  \"idCliente\": 2,\n  \"idProduto\": 2,\n  \"quantidade\": 1,\n  \"valorTotal\": 0.0,\n  \"data\": \"fev 25, 2023\"\n}"
+  },
+  {
+    "id": "20e1e58e-c66f-47a8-8fc6-97ba5d54ed86",
+    "idCliente": 2,
+    "idProduto": 4,
+    "quantidade": 1,
+    "valorTotal": 7.0,
+    "data": "jun 6, 2023",
+    "json": "{\n  \"id\": \"20e1e58e-c66f-47a8-8fc6-97ba5d54ed86\",\n  \"idCliente\": 2,\n  \"idProduto\": 4,\n  \"quantidade\": 1,\n  \"valorTotal\": 0.0,\n  \"data\": \"jun 6, 2023\"\n}"
+  },
+  {
+    "id": "1f860ae0-8a60-4abb-a82d-46b33697f362",
+    "idCliente": 2,
+    "idProduto": 4,
+    "quantidade": 1,
+    "valorTotal": 7.0,
+    "data": "jun 6, 2023",
+    "json": "{\n  \"id\": \"1f860ae0-8a60-4abb-a82d-46b33697f362\",\n  \"idCliente\": 2,\n  \"idProduto\": 4,\n  \"quantidade\": 1,\n  \"valorTotal\": 0.0,\n  \"data\": \"jun 6, 2023\"\n}"
+  },
+  {
+    "id": "4a9ead5e-f909-4e8f-87ae-4b79d186d005",
+    "idCliente": 2,
+    "idProduto": 4,
+    "quantidade": 1,
+    "valorTotal": 7.0,
+    "data": "jun 6, 2023",
+    "json": "{\n  \"id\": \"4a9ead5e-f909-4e8f-87ae-4b79d186d005\",\n  \"idCliente\": 2,\n  \"idProduto\": 4,\n  \"quantidade\": 1,\n  \"valorTotal\": 0.0,\n  \"data\": \"jun 6, 2023\"\n}"
+  },
+  {
+    "id": "97c0816f-0ede-4237-85b7-069754e2271a",
+    "idCliente": 2,
+    "idProduto": 4,
+    "quantidade": 1,
+    "valorTotal": 7.0,
+    "data": "jun 6, 2023",
+    "json": "{\n  \"id\": \"97c0816f-0ede-4237-85b7-069754e2271a\",\n  \"idCliente\": 2,\n  \"idProduto\": 4,\n  \"quantidade\": 1,\n  \"valorTotal\": 0.0,\n  \"data\": \"jun 6, 2023\"\n}"
+  }
+]

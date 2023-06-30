@@ -1,0 +1,12 @@
+[
+  {
+    "cod": "365",
+    "id": 3,
+    "nome": "david",
+    "cpf": "25417896351",
+    "email": "davinho@gmail.com",
+    "idade": 20,
+    "senha": "2415",
+    "json": "{\n  \"id\": 3,\n  \"nome\": \"david\",\n  \"cpf\": \"25417896351\",\n  \"email\": \"davinho@gmail.com\",\n  \"idade\": 20,\n  \"senha\": \"2415\"\n}"
+  }
+]

@@ -1,0 +1,29 @@
+[
+  {
+    "id": 2,
+    "nome": "miroMar",
+    "cpf": "12356987489",
+    "email": "miromar@gmail.com",
+    "idade": 20,
+    "senha": "1456",
+    "json": "{\n  \"id\": 2,\n  \"nome\": \"miro\",\n  \"cpf\": \"12356987489\",\n  \"email\": \"miro@gmail.com\",\n  \"idade\": 20,\n  \"senha\": \"1456\"\n}"
+  },
+  {
+    "id": 3,
+    "nome": "david",
+    "cpf": "12365987458",
+    "email": "davinho@gmail.com",
+    "idade": 20,
+    "senha": "2456",
+    "json": "{\n  \"id\": 3,\n  \"nome\": \"david\",\n  \"cpf\": \"12365987458\",\n  \"email\": \"davinho@gmail.com\",\n  \"idade\": 20,\n  \"senha\": \"2456\"\n}"
+  },
+  {
+    "id": 4,
+    "nome": "JonhBosco",
+    "cpf": "35698471532",
+    "email": "bosquinho@gmail.com",
+    "idade": 22,
+    "senha": "1458",
+    "json": "{\n  \"id\": 4,\n  \"nome\": \"JonhBosco\",\n  \"cpf\": \"35698471532\",\n  \"email\": \"bosquinho@gmail.com\",\n  \"idade\": 22,\n  \"senha\": \"1458\"\n}"
+  }
+]
